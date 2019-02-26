@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<title>QUERY</title>
+
+<body background="welcome_pic.jpg"></body>
+
+<head>
+    
+    <script src="script.js"></script>
+    <link href="./test.css" rel="stylesheet">
+    <div style="padding:20px;margin-top:30px;background-color:none;height:30px;"> 
+            <ul>
+                    
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Races.html">Races</a></li>
+                        <li><a href="RaceCategories.html">Regatta Race Categories</a></li>
+                        <li><a href="CategoryRules.html">Category Rules</a></li>
+                        <li><a href="Paddlers.html">Members</a></li>
+                        <li><a href="Query.html">Crew Building</a></li>
+                        <li><a href="RegattaStackList.html">Regatta Stacks</a></li>
+                        <li><a href="LongDistanceStackList.html">Long Distance Stacks</a></li>
+        
+        
+                  </ul>
+</head>
+
+<h1 align="center" style="color:black;"><span>Let's begin building crews!</span></h1>
+
+<body>
+
+
+
+    <div class="header">
+    </div>
+
+    <div class="grid-container">
+        <div class="item1">Select Race Name:</div>
+        <div class="item2">
+              <select>
+                      <option value="Select">Select one below:</option>
+                      <option value="Pre-Season1">PS / Windward Kai / Ke'ehi Lagoon</option>
+                      <option value="Pre-Season2">PS / Hui Wa'a / Ke'ehi Lagoon</option>
+                      <option value="Pre-Season3">PS / Hui Wa'a / Magic Island</option>
+                      <option value="Pre-Season4">PS / Hui Wa'a / Maunalua Bay</option>
+                      <option value="Pre-Season5">PS / Ka Mo'i / Pokai Bay</option>
+                      <option value="Pre-Season6">PS / Kumulokahi / Maunalua Bay</option>
+                      <option value="Pre-Season7">PS / Kai Poha / Hale'iwa</option>
+                      <option value="Pre-Season8">PS / Manu O Ke Kai / Hale'iwa</option>
+                      <option value="Pre-Season9">PS / Lahui O Ko'olauloa / Kahana Bay</option>
+                      <option value="Regatta1">R / Manu O Ke Kai / Hale'iwa</option>
+                      <option value="Regatta2">R / Kaneohe / Ke'ehi Lagoon</option>
+                      <option value="Regatta3">R / Windward Kai / Kailua</option>
+                      <option value="Regatta4">R / 'Alapa Hoe / Ke'ehi Lagoon</option>
+                      <option value="Regatta5">R / Lokahi / Ke'ehi Lagoon</option>
+                      <option value="Regatta6">R / Na Keiki O Ka Mo'i / Ma'ili</option>
+                      <option value="Regatta7">R / Waikiki Beach Boys / Waikiki</option>
+                      <option value="Regatta8">R / Hui Wa'a Championship / Ke'ehi Lagoon</option>
+                      <option value="Regatta9">R / HCRA State Championship / Ke'ehi Lagoon</option>
+                      <option value="OCHRA1">OCHRA / Edie Van Gieson Classic</option>
+                      <option value="OCHRA2">OCHRA / Duke Kahanamoku Race [Women]</option>
+                      <option value="OCHRA3">OCHRA / Duke Kahanamoku Race [Men]</option>
+                      <option value="OCHRA4">OCHRA / Kailua Bay Challenge [Men]</option>
+                      <option value="OCHRA5">OCHRA / Dad Center Canoe Race [Women]</option>
+                      <option value="OCHRA6">OCHRA / Queen Lili'uokalani Race</option>
+                      <option value="OCHRA7">OCHRA / E Lau Hoe Race</option>
+                      <option value="OCHRA8">OCHRA / Henry Ayau Race</option>
+                      <option value="Long-Distance1">LD / Na Wahine O Ke Kai [Women] </option>
+                      <option value="Long-Distance2">LD / Molokai Hoe [Men]</option>
+                  </select>
+        </div>
+        <div class="item3"></div>  
+        <div class="item4">Select Race Category:</div>
+        <div class="item5">
+              <select>
+                      <option value="Select2">Select one (Pre-season or Regatta):</option>
+                      <option value="RACE0">Mentally & Physically Challenged</option>
+                      <option value="RACE1">Mixed Masters 60 yrs +</option>
+                      <option value="RACE2">Women Masters 65 yrs +</option>
+                      <option value="RACE3">Men Masters 65 yrs + </option>
+                      <option value="RACE4">Women Masters 60 yrs +</option>
+                      <option value="RACE5">Men Masters 60 yrs +</option>
+                      <option value="RACE6">Girls 12 years & under</option>
+                      <option value="RACE7">Boys 12 years & under</option>
+                      <option value="RACE8">Girls 13 years & under</option>
+                      <option value="RACE9">Boys 13 years & under</option>
+                      <option value="RACE10">Girls 14 years & under</option>
+                      <option value="RACE11">Boys 14 years & under</option>
+                      <option value="RACE12">Mixed Boys & Girls 12 years & under</option>
+                      <option value="RACE13">Mixed Novice B</option>
+                      <option value="RACE14">Women Novice B</option>
+                      <option value="RACE15">Men Novice B</option>
+                      <option value="RACE16">Girls 15 years & under</option>
+                      <option value="RACE17">Boys 15 years & under</option>
+                      <option value="RACE18">Girls 16 years & under</option>
+                      <option value="RACE19">Boys 16 years & under</option>
+                      <option value="RACE20">Girls 18 years & under</option>
+                      <option value="RACE21">Boys 18 years & under</option>
+                      <option value="RACE22">Mixed Boys and Girls 18 years & under</option>
+                      <option value="RACE23">Women Masters 55 yrs +</option>
+                      <option value="RACE24">Men Masters 55 yrs +</option>
+                      <option value="RACE25">Women Masters 50 yrs +</option>
+                      <option value="RACE26">Mixed Masters 55 yrs +</option>
+                      <option value="RACE27">Men Masters 50 yrs +</option>
+                      <option value="RACE28">Mixed Masters 45 yrs +</option>
+                      <option value="RACE29">Women Novice A</option>
+                      <option value="RACE30">Men Novice A</option>
+                      <option value="RACE31">Women Freshmen</option>
+                      <option value="RACE32">Men Freshmen</option>
+                      <option value="RACE33">Women Sophomore</option>
+                      <option value="RACE34">Men Sophomore</option>
+                      <option value="RACE35">Women Senior</option>
+                      <option value="RACE36">Men Senior</option>
+                      <option value="RACE37">Women Masters (40 yrs +)</option>
+                      <option value="RACE38">Men Masters (40 yrs +)</option>
+                      <option value="RACE39">Women Open 4</option>
+                      <option value="RACE40">Men Open 4</option>
+                      <option value="RACE41">Mixed Masters (40 yrs +)</option>
+                      <option value="RACE42">Mixed Open 6 (men & women)</option>
+                  </select>
+        </div>
+
+        <div>
+
+            <div class="item6">
+                    <select>
+                            <option value="Select3">Select one (Long-Distance Races)</option>
+                            <option value="EDIE1">EDIE: Crew 1</option>
+                            <option value="EDIE2">EDIE: Crew 2</option>
+                            <option value="EDIE3">EDIE: Crew 3</option>
+                            <option value="DUKE-W1">DUKE(W): Crew 1</option>
+                            <option value="DUKE-W2">DUKE(W): Crew 2</option>
+                            <option value="DUKE-W3">DUKE(W): Crew 3</option>
+                            <option value="DUKE-M1">DUKE(M): Crew 1</option>
+                            <option value="DUKE-M2">DUKE(M): Crew 2</option>
+                            <option value="DUKE-M3">DUKE(M): Crew 3</option>
+                            <option value="KAILUABAY-M1">KAILUABAY(M): Crew 1</option>
+                            <option value="KAILUABAY-M2">KAILUABAY(M): Crew 2</option>
+                            <option value="KAILUABAY-M3">KAILUABAY(M): Crew 3</option>
+                            <option value="DADS-W1">DADS(W): Crew 1</option>
+                            <option value="DADS-W2">DADS(W): Crew 2</option>
+                            <option value="DADS-W3">DADS(W): Crew 3</option>
+                            <option value="Queen1">QUEEN LILI'UOKALANI: Crew 1</option>
+                            <option value="Queen2">QUEEN LILI'UOKALANI: Crew 2</option>
+                            <option value="Queen3">QUEEN LILI'UOKALANI: Crew 3</option>
+                            <option value="ELAUHOE1">ELAUHOE: Crew 1</option>
+                            <option value="ELAUHOE2">ELAUHOE: Crew 2</option>
+                            <option value="ELAUHOE3">ELAUHOE: Crew 3</option>
+                            <option value="HENRY1">HENRY AYAU: Crew 1</option>
+                            <option value="HENRY2">HENRY AYAU: Crew 2</option>
+                            <option value="HENRY3">HENRY AYAU: Crew 3</option>
+                            <option value="NWOKK1">NA WAHINE O KE KAI: Crew 1</option>
+                            <option value="NWOKK2">NA WAHINE O KE KAI: Crew 2</option>
+                            <option value="NWOKK3">NA WAHINE O KE KAI: Crew 3</option>
+                            <option value="MOLOKAI1">MOLOKAI HOE: Crew 1</option>
+                            <option value="MOLOKAI2">MOLOKAI HOE: Crew 2</option>
+                            <option value="MOLOKAI3">MOLOKAI HOE: Crew 3</option>   
+                        </select>
+              </div>
+        </div>      
+
+  
+    </div>
+
+    <div class="container">
+            <div class="cell">STATUS</div>
+            <div class="cell">GENDER</div>
+            <div class="cell">AGE</div>
+            <div class="cell">CATEGORY</div>
+            <div class="cell">SEAT PREF</div>
+            <div class="cell">SKILL</div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Active
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Male
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 12
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Open
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 1
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Beginner
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Inactive
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Female
+                </label>
+            </div>
+            <div class="cell">
+                    <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 13
+                </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Masters 40+
+                </label>
+            </div>
+            <div class="cell">
+                    <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> 2
+                    </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> Intermediate
+                    </label>
+            </div>
+            <div class="cell"></div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> All
+                    </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> 14
+                    </label>
+            </div>
+            <div class="cell">
+                <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> Masters 45+
+                    </label>
+            </div>
+            <div class="cell">
+                    <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> 3
+                    </label>
+            </div>
+            <div class="cell">
+                    <div class="checkbox"></div>
+                    <label>
+                        <input type="checkbox" class="checkitem1"> Expert
+                    </label>
+            </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 15
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Masters 50+
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 4
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> All
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 16
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Masters 55+
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 5
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 18
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Masters 60+
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 6
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 19-39
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Masters 65+
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> All
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 40-44
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Novice A
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 45-49
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Novice B
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 50-54
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 18
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 55-59
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 16
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 60-64
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 15
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> 65+
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 14
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> All
+                </label>
+        </div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 13
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell">
+                <div class="checkbox"></div>
+                <label>
+                    <input type="checkbox" class="checkitem1"> Kids 12 & Under
+                </label>
+        </div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        </div>
+    
+
+        <button onclick="toRegattaStacks()">Regatta stack suggestions</button>
+
+</body>
+
+</html>
